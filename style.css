@@ -1,0 +1,64 @@
+body {
+    padding: 150px;
+    background: linear-gradient(pink 0%, purple 100%);
+    color: aliceblue;
+    text-align: center;
+    font-size: 35px;
+}
+
+#p1 {
+    color: fuchsia;
+    font-size: 30px;
+}
+
+#p4 {
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: 'Itim', cursive;
+}
+
+img {
+    height: 400px;
+    width: 400px;
+}
+
+.menu 
+{
+    list-style: none;
+    font-family: cursive;
+    position: absolute;
+    top: 1px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.l1 
+{
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 9px;
+    padding-left: 9px;
+}
+.l1:hover
+{
+   font-size: 30px;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+img
+{
+transition: transform .2s;
+border: 10px #AAAAAA;
+}
+img:hover{
+    transform: scale(0.9);
+}
+a
+{
+color: orchid !important;
+font-size: 20px;
+}
